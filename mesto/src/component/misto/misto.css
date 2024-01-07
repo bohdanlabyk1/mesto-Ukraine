@@ -1,0 +1,41 @@
+.app-content{
+    background-color: black;
+}
+.content{
+   background-color: rgb(8, 8, 8);
+    display: grid;
+    grid-template-columns:repeat(3, 1fr);
+    gap: 7px;
+    margin: 5px;
+}
+.image{
+    width: 290px;
+    height: 290px;
+   object-fit: cover;
+}
+h1{
+    color: antiquewhite;
+}
+.main{
+    padding-top: 1px;
+    background-color: aliceblue;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+img{
+    width: 290px;
+    height: 230px;
+    object-fit: cover;
+}
+h2{
+    text-align: center;
+    color: black;
+}
+.btn{
+    font-size: 30px;
+    color: rgb(240, 18, 37);
+   
+}
+   
