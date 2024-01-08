@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/bohdanlabyk1/mesto-Ukraine/static/css/main.f8b13888.css",
-    "main.js": "/bohdanlabyk1/mesto-Ukraine/static/js/main.4aedfa0e.js",
-    "static/js/787.e4195eb4.chunk.js": "/bohdanlabyk1/mesto-Ukraine/static/js/787.e4195eb4.chunk.js",
-    "index.html": "/bohdanlabyk1/mesto-Ukraine/index.html",
-    "main.f8b13888.css.map": "/bohdanlabyk1/mesto-Ukraine/static/css/main.f8b13888.css.map",
-    "main.4aedfa0e.js.map": "/bohdanlabyk1/mesto-Ukraine/static/js/main.4aedfa0e.js.map",
-    "787.e4195eb4.chunk.js.map": "/bohdanlabyk1/mesto-Ukraine/static/js/787.e4195eb4.chunk.js.map"
+    "main.css": "/mesto-Ukraine/static/css/main.f8b13888.css",
+    "main.js": "/mesto-Ukraine/static/js/main.fced1280.js",
+    "static/js/787.e4195eb4.chunk.js": "/mesto-Ukraine/static/js/787.e4195eb4.chunk.js",
+    "index.html": "/mesto-Ukraine/index.html",
+    "main.f8b13888.css.map": "/mesto-Ukraine/static/css/main.f8b13888.css.map",
+    "main.fced1280.js.map": "/mesto-Ukraine/static/js/main.fced1280.js.map",
+    "787.e4195eb4.chunk.js.map": "/mesto-Ukraine/static/js/787.e4195eb4.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f8b13888.css",
-    "static/js/main.4aedfa0e.js"
+    "static/js/main.fced1280.js"
   ]
 }
