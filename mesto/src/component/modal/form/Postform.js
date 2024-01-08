@@ -7,9 +7,9 @@ const Postform = ({create}) => {
 
     const addNewMisto = (e) => {
         e.preventDefault();
-       const newPost = {
-        ...post, id: Date.now()
-       }
+        const newPost = {
+         
+        }
        create(newPost)
         setPost({title: '', img:'' })
       };
@@ -19,13 +19,13 @@ const Postform = ({create}) => {
     <input
     value={post.img}
     type="url"
-    placeholder="картинка"
+    placeholder="Силка на картинка"
     onChange={(e) => setPost({ ...post, img: e.target.value })}
     />
     <input
     value={post.title}
     type="text"
-    placeholder="Заголовок"
+    placeholder="Назва"
     onChange={e=> setPost({...post, title: e.target.value})}
     />
     <button onClick={addNewMisto}>Створити</button>

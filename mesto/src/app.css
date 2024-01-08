@@ -10,3 +10,16 @@ button{
     padding: 3px 20px;
     color: rgb(44, 43, 43);
 }
+.heder{
+    width: 800px;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    margin: 0 auto;
+    align-items: center;
+}
+.img-heder{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}

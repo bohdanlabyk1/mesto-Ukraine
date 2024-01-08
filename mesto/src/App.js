@@ -26,9 +26,12 @@ function App() {
     <>
    <div className="app-content" >
     <Header />
-   
-    <button onClick={openModal}>+</button>
-  
+       <div className="heder">
+      <img className="img-heder" src="https://ms.detector.media/doc/images/news/33333/i75_ArticleImage_33333.webp" />
+      <div>
+       <button onClick={openModal}>+</button>
+       </div>
+       </div>
     <MyModal isOpen={isModalOpen} onClose={closeModal}>
     <Postform create={createPost}/>
     </MyModal>

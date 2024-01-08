@@ -59,4 +59,16 @@ export const misto = [
         img: "https://tamtour.com.ua/local/image/440/009/ua241-900@.jpg",
         like: '22',
     },
+    {
+        id:11,
+        title: "Камянець подільськ",
+        img: "https://tamtour.com.ua/local/image/236/009/e1141d8077f72563dfbb304ca0c76b59-01-kamenets-podolskiy-depositphotos-41792869-original.jpg",
+        like: '22',
+    },
+    {
+        id:12,
+        title: "Чернівці",
+        img: "https://molbuk.ua/uploads/posts/2020-10/1601715683_im578x383-university-of-chernivtsi.png",
+        like: '22',
+    },
 ]
