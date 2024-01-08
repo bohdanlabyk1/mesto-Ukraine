@@ -4,7 +4,7 @@ import './Footer.css';
 const Futer = () => {
   return (
     <div className="footer">
-      <p>@ 2022 misto ukraine</p>
+      @ 2022 misto ukraine
     </div>
   );
 }

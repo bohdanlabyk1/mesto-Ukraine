@@ -1,0 +1,12 @@
+ *{
+    padding: 0;
+    margin: 0;
+   background-color: black;
+}
+button{
+    justify-content: center;
+    background-color: aliceblue;
+    margin: 20px;
+    padding: 3px 20px;
+    color: rgb(44, 43, 43);
+}

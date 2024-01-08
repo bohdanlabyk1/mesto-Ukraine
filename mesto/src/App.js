@@ -1,5 +1,5 @@
 import Futer from "./component/futer/futer";
-import './component/misto/misto.css'
+import './app.css'
 import Header from "./component/heder/heder";
 import Mecto from "./component/misto/Mecto";
 import MyModal from "./component/modal/MyModal"
@@ -23,10 +23,11 @@ function App() {
     setModalOpen(false);
   }
   return (
+    <>
    <div className="app-content" >
     <Header />
    
-    <button  onClick={openModal}>+</button>
+    <button onClick={openModal}>+</button>
   
     <MyModal isOpen={isModalOpen} onClose={closeModal}>
     <Postform create={createPost}/>
@@ -34,7 +35,7 @@ function App() {
    <Mecto misto={misto}/>
     <Futer />
    </div>
-   
+   </>
   );
 }
 

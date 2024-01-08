@@ -21,6 +21,7 @@ const Mecto = (props) => {
 
   return (
     <div className='content'>
+      <div className='grid'>
     {props.misto.map((item) => (
       <div key={item.id} className='image'>
         <img src={item.img} alt={item.title} />
@@ -31,6 +32,7 @@ const Mecto = (props) => {
         </div>
       </div>
     ))}
+    </div>
   </div>
 );
 };
