@@ -4,7 +4,7 @@ import './Header.css';
 const Header = () => {
   return (
     <div className="header">
-      <h1>Місто України</h1>
+      <h1>Містa України</h1>
       <div className="line"></div>
     </div>
   );
