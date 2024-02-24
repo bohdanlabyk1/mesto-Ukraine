@@ -24,7 +24,6 @@ function App() {
   }
   return (
     <>
-   <div className="app-content" >
     <Header />
        <div className="heder">
       <img className="img-heder" src="https://ms.detector.media/doc/images/news/33333/i75_ArticleImage_33333.webp" />
@@ -37,7 +36,6 @@ function App() {
     </MyModal>
    <Mecto misto={misto}/>
     <Futer />
-   </div>
    </>
   );
 }

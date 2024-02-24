@@ -1,16 +1,12 @@
-.content{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+
 .grid{
     display: grid;
-    grid-template-columns:repeat(3, 1fr);
-    gap: 17px;
-  
+    grid-template-columns: repeat(3, 1fr); 
+    grid-column-gap: 3px;
+    grid-row-gap: 3px;
 }
 .image{
-    width: 280px;
+    width: 325px;
     height: 290px;
    object-fit: cover;
 }
@@ -26,7 +22,7 @@ h1{
     justify-content: space-around;
 }
 img{
-    width: 280px;
+    width: 325px;
     height: 230px;
     object-fit: cover;
 }
@@ -40,4 +36,36 @@ p{
 .btn{
     background-color: aliceblue;
     color: brown;
+}
+
+@media screen and (max-width: 768px) {
+    .grid {
+      grid-template-columns: repeat(2, 1fr); 
+    }
+    img{
+        width: 300px;
+     justify-content: center;
+    }
+    .image{
+        width: 300px;
+    }
+}
+@media screen and (max-width: 580px) {
+    .grid {
+      grid-template-columns: repeat(1, 1fr); 
+      margin: 0 auto;
+  }
+  img {
+    max-width: 100%; 
+    width: 450px; 
+    display: block; 
+    margin: 0 auto; 
+}
+.image{
+        max-width: 100%; 
+        width: 450px; 
+        display: block; 
+        margin: 0 auto; 
+
+}
 }

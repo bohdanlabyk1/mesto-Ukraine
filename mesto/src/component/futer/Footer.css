@@ -1,9 +1,21 @@
 .footer {
   background-color: rgb(12, 12, 12);
-    text-align: center;
-     padding: 20px;
-    width: 860px;
-    margin: 0 auto;
-    color: aliceblue;
-  }
- 
+  text-align: center;
+  padding: 20px;
+  width: 955px;
+  margin: 0 auto;
+  color: aliceblue;
+}
+
+@media screen and (max-width: 768px) {
+ .footer{
+  width: 700px;
+ }
+}
+
+@media screen and (max-width: 580px) {
+  .footer{
+    width: 440px;
+   }
+
+}
