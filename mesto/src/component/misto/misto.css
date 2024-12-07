@@ -1,14 +1,19 @@
 
 .grid{
     display: grid;
-    grid-template-columns: repeat(3, 1fr); 
-    grid-column-gap: 3px;
-    grid-row-gap: 3px;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    width: 100%;
 }
 .image{
-    width: 325px;
-    height: 290px;
-   object-fit: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f9f9f9;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
 }
 h1{
     color: antiquewhite;
@@ -22,9 +27,8 @@ h1{
     justify-content: space-around;
 }
 img{
-    width: 325px;
-    height: 230px;
-    object-fit: cover;
+    max-width: 100%;
+    border-radius: 8px;
 }
 h2{
     text-align: center;
@@ -38,34 +42,34 @@ p{
     color: brown;
 }
 
-@media screen and (max-width: 768px) {
+@media (max-width: 768px) {
+    .content {
+      padding: 10px;
+    }
+  
     .grid {
-      grid-template-columns: repeat(2, 1fr); 
+      gap: 10px;
     }
-    img{
-        width: 300px;
-     justify-content: center;
+  
+    .image {
+      padding: 5px;
     }
-    .image{
-        width: 300px;
+  
+    .btn {
+      font-size: 20px;
     }
-}
-@media screen and (max-width: 580px) {
-    .grid {
-      grid-template-columns: repeat(1, 1fr); 
-      margin: 0 auto;
   }
-  img {
-    max-width: 100%; 
-    width: 450px; 
-    display: block; 
-    margin: 0 auto; 
-}
-.image{
-        max-width: 100%; 
-        width: 450px; 
-        display: block; 
-        margin: 0 auto; 
-
-}
-}
+  
+  @media (max-width: 480px) {
+    .btn {
+      font-size: 18px;
+    }
+  
+    .image {
+      padding: 5px;
+    }
+  
+    .grid {
+      gap: 5px;
+    }
+  }

@@ -4,37 +4,41 @@
    background-color: black;
 }
 button{
-    justify-content: center;
-    background-color: aliceblue;
-    margin: 20px;
-    padding: 3px 20px;
-    color: rgb(44, 43, 43);
+    font-size: 24px;
+  padding: 10px;
+  border: none;
+  color: white;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background-color 0.3s;
 }
 .heder{
-    width: 800px;
     display: flex;
-    justify-content: space-between;
-    padding: 30px;
-    margin: 0 auto;
-    align-items: center;
+  flex-direction: column;
+ justify-content: space-around;
+  padding: 20px;
+  background-color: #0e0d0d;
 }
 .img-heder{
-    width: 100px;
-    height: 100px;
+    max-width: 10%;
+    height: auto;
     border-radius: 50%;
 }
-@media screen and (max-width: 768px) {
-    .heder{
-     width: 700px;
-     justify-content: space-between;
+@media (max-width: 768px) {
+    .header {
+      padding: 10px;
     }
-   }
-   
-   @media screen and (max-width: 580px) {
-     .heder{
-       width: 440px;
-       justify-content: space-between;
-      }
-   
-   }
+  
+    button {
+      font-size: 20px;
+      padding: 8px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    button {
+      font-size: 18px;
+      padding: 6px;
+    }
+  }
    
