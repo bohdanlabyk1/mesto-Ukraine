@@ -13,9 +13,10 @@
  }
 }
 
-@media screen and (max-width: 580px) {
+@media screen and (max-width: 480px) {
   .footer{
-    width: 440px;
+    width: 80%;
+    margin: 0 auto;
    }
 
 }
